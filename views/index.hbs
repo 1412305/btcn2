@@ -1,7 +1,27 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<h1 class="text-light">InstGoo</h1>
+<div class="form-group align-items-center">
+    <label class="text-light" for="address">Address</label>
+    <input id="address" name="address" type="text" value="" ></input>
+    <button class="btn btn-success" id="btn-geocode">Geocode</button>
+</div>
 
-<label for="address">Address</label>
-<input id="address" name="address" type="text" value="" ></input>
-<button id="btn-geocode">Geocode</button>
+<div id="map"></div>
+<div id="media-dialog">
+    <div class="container-fluid bg-light">
+        <div class="row">
+            <h4>Images</h4>
+        </div>
+
+        <div class="row" id="images"> 
+        </div>
+
+        <div class="row">
+            <h4>Videos</h4>
+        </div>
+
+        <div class="row" id="videos">
+        </div>
+    </div>
+</div>
+ 
 
